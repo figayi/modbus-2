@@ -30,6 +30,7 @@ modubs_test\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
 modubs_test\main.o: ../Inc/tim.h
 modubs_test\main.o: ../Inc/usart.h
 modubs_test\main.o: ../Inc/gpio.h
+modubs_test\main.o: ..\Inc\modbus_user\modbus_deal.h
 modubs_test\main.o: ..\Inc\modbus\include\mb.h
 modubs_test\main.o: ..\Inc\modbus_user\port.h
 modubs_test\main.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\assert.h

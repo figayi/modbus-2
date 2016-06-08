@@ -34,6 +34,7 @@
 "modubs_test\portevent.o"
 "modubs_test\portserial.o"
 "modubs_test\porttimer.o"
+"modubs_test\modbus_deal.o"
 --library_type=microlib --strict --scatter "modubs_test\modubs_test.sct"
 --diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers

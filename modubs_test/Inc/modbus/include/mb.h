@@ -345,7 +345,7 @@ eMBErrorCode    eMBRegInputCB( UCHAR * pucRegBuffer, USHORT usAddress,
  *       a <b>SLAVE DEVICE FAILURE</b> exception is sent as a response.
  */
 eMBErrorCode    eMBRegHoldingCB( UCHAR * pucRegBuffer, USHORT usAddress,
-                                 USHORT usNRegs, eMBRegisterMode eMode );
+                                 USHORT * usNRegs, eMBRegisterMode eMode );
 
 /*! \ingroup modbus_registers
  * \brief Callback function used if a <em>Coil Register</em> value is

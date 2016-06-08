@@ -21,13 +21,19 @@ Target DLL:      Segger\JL2CM3.dll V2.99.18.0
 Dialog DLL:      TCM.DLL V1.14.8.0
  
 <h2>Project:</h2>
-C:\Users\PC\Desktop\modubs_test\MDK-ARM\modubs_test.uvprojx
+E:\MySTM32Code\modbus\modubs_test\MDK-ARM\modubs_test.uvprojx
 Project File Date:  05/24/2016
 
 <h2>Output:</h2>
 *** Using Compiler 'V5.06 update 1 (build 61)', folder: 'D:\Keil_v5\ARM\ARMCC\Bin'
 Build target 'modubs_test'
-"modubs_test\modubs_test.axf" - 0 Error(s), 0 Warning(s).
+compiling modbus_deal.c...
+..\user_modbus\modbus_deal.c(44): warning:  #550-D: variable "eStatus" was set but never used
+      eMBErrorCode  eStatus = MB_ENOERR;
+..\user_modbus\modbus_deal.c: 1 warning, 0 errors
+linking...
+Program Size: Code=10372 RO-data=896 RW-data=216 ZI-data=1440  
+"modubs_test\modubs_test.axf" - 0 Error(s), 1 Warning(s).
 
 <h2>Software Packages used:</h2>
 
@@ -38,14 +44,14 @@ Package Vendor: ARM
    * Component: CORE Version: 4.3.0
 
 <h2>Collection of Component include folders:</h2>
-  C:\Users\PC\Desktop\modubs_test\MDK-ARM\RTE
+  E:\MySTM32Code\modbus\modubs_test\MDK-ARM\RTE
   D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include
   D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include
 
 <h2>Collection of Component Files used:</h2>
 
    * Component: ARM::CMSIS:CORE:4.3.0
-Build Time Elapsed:  00:00:01
+Build Time Elapsed:  00:00:04
 </pre>
 </body>
 </html>
